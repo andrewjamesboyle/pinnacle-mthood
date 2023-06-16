@@ -147,10 +147,9 @@ const HomePage = () => {
           <img
             src="/plants.jpg"
             alt=""
-            className="absolute inset-0 -z-10 h-full w-full object-cover"
+            className="fixed inset-0 -z-10 h-full w-full object-cover"
           />
-
-          <div className="lg:py-35 mx-auto max-w-2xl py-20 sm:py-32">
+          <div className="lg:py-30 mx-auto max-w-2xl py-20 sm:py-32">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                 Announcing our newest branch.{' '}
@@ -160,6 +159,7 @@ const HomePage = () => {
                 </a>
               </div>
             </div>
+
             <div className="text-center">
               <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Pinnacle Advocacy Mount Hood
@@ -225,6 +225,50 @@ const HomePage = () => {
                   width={2432}
                   height={1442}
                 />
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden bg-white py-24 sm:py-32">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+                  <div className="lg:max-w-lg">
+                    <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                      Deploy faster
+                    </h2>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                      A better workflow
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-gray-600">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Maiores impedit perferendis suscipit eaque, iste dolor
+                      cupiditate blanditiis ratione.
+                    </p>
+                    <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                      {features.map((feature) => (
+                        <div key={feature.name} className="relative pl-9">
+                          <dt className="inline font-semibold text-gray-900">
+                            <feature.icon
+                              className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
+                              aria-hidden="true"
+                            />
+                            {feature.name}
+                          </dt>{' '}
+                          <dd className="inline">{feature.description}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </div>
+                </div>
+                <div className="flex items-start justify-end lg:order-first">
+                  <img
+                    src="/mountain.jpg"
+                    alt="Product screenshot"
+                    className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                    width={2432}
+                    height={1442}
+                  />
+                </div>
               </div>
             </div>
           </div>
