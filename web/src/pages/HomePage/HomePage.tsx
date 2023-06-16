@@ -132,11 +132,7 @@ const HomePage = () => {
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=800"
-                  alt=""
-                />
+                <img className="h-12 w-auto" src="/logo.jpg" alt="" />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -222,28 +218,28 @@ const HomePage = () => {
           </Dialog>
         </header>
 
-        <div className="relative isolate overflow-hidden pt-14">
+        <div className="relative isolate overflow-hidden pt-20">
           <img
-            src="/plants.jpg"
+            src="/lavender-dark.jpg"
             alt=""
-            className="fixed inset-0 -z-10 h-full w-full object-cover"
+            className="fixed inset-0 -z-10 h-full w-full rounded-sm object-cover"
           />
-          <div className="lg:py-30 mx-auto max-w-2xl py-20 sm:py-32">
+          <div className="lg:py-30 mx-auto max-h-full max-w-4xl justify-center  object-cover  py-20 sm:py-32">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
+              <div className="relative rounded-full bg-gray-800 bg-opacity-70 px-3 py-1 text-sm  leading-6 text-gray-100 ring-1 ring-white/10 hover:ring-white/20">
                 Announcing our newest branch.{' '}
                 <a href="#" className="font-semibold text-white">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  Read more <span aria-hidden="true">&rarr;</span>
+                  Mount Hood
                 </a>
               </div>
             </div>
 
             <div className="text-center">
-              <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                Pinnacle Advocacy Mount Hood
+              <h1 className="max-w-full justify-center text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                Pinnacle Advocacy
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p className="mt-6 text-lg leading-8 text-gray-100">
                 Pinnacle Advocacy embraces a philosophy of representation that
                 is built on absolute integrity with an unquestioned commitment
                 to success.
