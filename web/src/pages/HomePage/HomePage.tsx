@@ -132,7 +132,7 @@ const HomePage = () => {
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h-12 w-auto" src="/logo.jpg" alt="" />
+                <img className="h-10 w-auto" src="/logo.jpg" alt="" />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -222,9 +222,9 @@ const HomePage = () => {
           <img
             src="/lavender-dark.jpg"
             alt=""
-            className="fixed inset-0 -z-10 h-full w-full rounded-sm object-cover"
+            className="fixed inset-0 -z-10 h-full w-full object-cover"
           />
-          <div className="lg:py-30 mx-auto max-h-full max-w-4xl justify-center  object-cover  py-20 sm:py-32">
+          <div className="lg:py-30 mx-auto max-h-full max-w-4xl justify-center  object-cover  py-40 sm:py-40">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full bg-gray-800 bg-opacity-70 px-3 py-1 text-sm  leading-6 text-gray-100 ring-1 ring-white/10 hover:ring-white/20">
                 Announcing our newest branch.{' '}
