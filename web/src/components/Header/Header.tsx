@@ -4,14 +4,19 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Services', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Team', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Services' },
+  { name: 'About' },
+  { name: 'Contact' },
 ]
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const handleNavigation = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
+    setTimeout(() => setMobileMenuOpen(false), 1000)
+  }
+
   return (
     <header className="relative inset-x-0 top-0 z-50 bg-white">
       <nav
@@ -36,13 +41,13 @@ const Header = () => {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a
+            <button
               key={item.name}
-              href={item.href}
+              onClick={() => handleNavigation(`${item.name}`)}
               className="text-sm font-semibold leading-6 text-gray-800"
             >
               {item.name}
-            </a>
+            </button>
           ))}
         </div>
       </nav>
@@ -55,13 +60,9 @@ const Header = () => {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                alt=""
-              />
+              <img className="h-8 w-auto" src="/logo.jpg" alt="" />
             </a>
             <button
               type="button"
@@ -76,13 +77,13 @@ const Header = () => {
             <div className="-my-6 divide-y divide-gray-500/25">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <a
+                  <button
                     key={item.name}
-                    href={item.href}
+                    onClick={() => handleNavigation(`${item.name}`)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                   >
                     {item.name}
-                  </a>
+                  </button>
                 ))}
               </div>
               <div className="py-6">
