@@ -6,7 +6,7 @@ import {
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Professional Government Relations',
     description:
       'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
     href: '#',
@@ -14,14 +14,14 @@ const features = [
   },
 
   {
-    name: 'SSL certificates',
+    name: 'Superior Legislative Lobbying Services',
     description:
       'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
     href: '#',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Key Relationships and Coalition Building',
     description:
       'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
     href: '#',
@@ -29,22 +29,50 @@ const features = [
   },
 ]
 
-export default function Example() {
+const featuresTwo = [
+  {
+    name: 'Intelligence gathering on procurement actions',
+    description:
+      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+    href: '#',
+    icon: CloudArrowUpIcon,
+  },
+
+  {
+    name: 'Collaboration to improve policies and streamline processes',
+    description:
+      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+    href: '#',
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Key Relationships and Coalition Building',
+    description:
+      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+    href: '#',
+    icon: ArrowPathIcon,
+  },
+]
+
+export default function Services() {
   return (
     <>
-      <div className="bg-white py-24 sm:py-32">
+      <div className="sm:py-18 bg-white py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
+          <div className="mx-auto max-w-2xl sm:text-center lg:mx-0 lg:text-left">
             <h2 className="text-base font-semibold leading-7 text-indigo-600">
-              Deploy faster
+              Our Services
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Everything you need to deploy your app
+              State Legislative Lobbying
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+              Pinnacle Advocacy is a comprehensive government affairs services
+              firm, representing clients before all levels of state government.
+              Our team's substantive policy knowledge, deep political expertise,
+              and unmatched work ethic results in consistently successful
+              outcomes on the high-stakes and challenging issues in the State of
+              Oregon.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -65,7 +93,7 @@ export default function Example() {
                         href={feature.href}
                         className="text-sm font-semibold leading-6 text-indigo-600"
                       >
-                        Learn more <span aria-hidden="true">→</span>
+                        Learn more <span aria-hidden="true"></span>
                       </a>
                     </p>
                   </dd>
@@ -89,9 +117,22 @@ export default function Example() {
           </div>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto mt-20 max-w-2xl lg:mx-0 lg:text-left">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Local Government Lobbying
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Pinnacle Advocacy is a comprehensive government affairs services
+              firm, representing clients before all levels of state government.
+              Our team's substantive policy knowledge, deep political expertise,
+              and unmatched work ethic results in consistently successful
+              outcomes on the high-stakes and challenging issues in the State of
+              Oregon.
+            </p>
+          </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-              {features.map((feature) => (
+              {featuresTwo.map((feature) => (
                 <div key={feature.name} className="flex flex-col">
                   <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
                     <feature.icon
@@ -107,7 +148,7 @@ export default function Example() {
                         href={feature.href}
                         className="text-sm font-semibold leading-6 text-indigo-600"
                       >
-                        Learn more <span aria-hidden="true">→</span>
+                        Learn more <span aria-hidden="true"></span>
                       </a>
                     </p>
                   </dd>

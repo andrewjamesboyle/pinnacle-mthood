@@ -1,7 +1,5 @@
 import { MetaTags } from '@redwoodjs/web'
 
-
-import Contact from 'src/components/Contact/Contact'
 import Hero from 'src/components/Hero/Hero'
 
 const HomePage = () => {
@@ -10,8 +8,6 @@ const HomePage = () => {
       <MetaTags title="Home" description="Home page" />
 
       <Hero />
-
-      <Contact />
     </>
   )
 }
