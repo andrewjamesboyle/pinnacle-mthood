@@ -12,11 +12,6 @@ const navigation = [
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  const handleNavigation = (id) => {
-    document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
-    setTimeout(() => setMobileMenuOpen(false), 1000)
-  }
-
   return (
     <header className="relative inset-x-0 top-0 z-50 bg-white">
       <nav
@@ -41,13 +36,13 @@ const Header = () => {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <button
+            <a
               key={item.name}
-              onClick={() => handleNavigation(`${item.name}`)}
+              href={`/${item.name}`}
               className="text-sm font-semibold leading-6 text-gray-800"
             >
               {item.name}
-            </button>
+            </a>
           ))}
         </div>
       </nav>
@@ -77,13 +72,13 @@ const Header = () => {
             <div className="-my-6 divide-y divide-gray-500/25">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
-                  <button
+                  <a
                     key={item.name}
-                    onClick={() => handleNavigation(`${item.name}`)}
+                    href={`/${item.name}`}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                   >
                     {item.name}
-                  </button>
+                  </a>
                 ))}
               </div>
               <div className="py-6">

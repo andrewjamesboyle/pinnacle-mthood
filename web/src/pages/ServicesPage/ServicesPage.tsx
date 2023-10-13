@@ -10,30 +10,42 @@ const ServicesPage = () => {
     <>
       <MetaTags title="Services" description="Services page" />
 
-      <div className="bg-white px-6 py-32 lg:px-8">
+      <div className="bg-white px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
           <p className="text-base font-semibold leading-7 text-indigo-600">
-            Introducing
+            Pinnacle Mount Hood
           </p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            JavaScript for Beginners
+            How We Will Help You
           </h1>
           <p className="mt-6 text-xl leading-8">
-            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At
-            arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae
-            feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget.
-            Eleifend egestas fringilla sapien.
+            Through decades of experience shaping policy in state and federal
+            government, our team has achieved significant, measurable policy
+            victories for clients before the Oregon Legislature. In addition, we
+            have succeeded in delivering millions in benefits and cost savings
+            in agency rulemakings and contested case proceedings. We have also
+            worked with Oregon’s federal Congressional delegation in numerous of
+            arenas, including land-use, inter-governmental relations, tribal
+            matters, broadband policy, mergers and acquisitions, and
+            infrastructure planning. And we have worked with federal agencies
+            from the Department of Agriculture to the Federal Communications
+            Commission to resolve client’s issues.
           </p>
           <div className="mt-10 max-w-2xl">
             <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-              Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-              sed turpis id.
+              Pinnacle Mt. Hood works closely with local government to solve
+              policy issues, utilizing its deep understanding of state and
+              relevant federal law. When we engage with local government, we do
+              so in-person using relationships we have cultivated over the
+              course of two decades traversing the state by plane, train, and
+              automobile. At the time of this writing, Oregon contained 242
+              incorporated municipalities, 36 counties, 22 port districts, and
+              28 types of special districts. They are all critical to Oregon’s
+              economy and can have a significant impact on business activity and
+              regulation. We make the job of interfacing with them simple, easy,
+              and successful for your business.
             </p>
-            <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            <ul className="mt-8 max-w-xl space-y-8 text-gray-600">
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   className="mt-1 h-5 w-5 flex-none text-indigo-600"
@@ -41,11 +53,10 @@ const ServicesPage = () => {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Data types.
+                    State and Federal Government Affairs
                   </strong>{' '}
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
+                  We have succeeded in delivering millions in benefits and cost
+                  savings in agency rulemakings and contested case proceedings
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -55,10 +66,10 @@ const ServicesPage = () => {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Loops.
+                    Local Government Affairs
                   </strong>{' '}
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo.
+                  We leverage decades of experience to help our clients navigate
+                  the economic impacts of local government regulation
                 </span>
               </li>
               <li className="flex gap-x-3">
@@ -68,38 +79,30 @@ const ServicesPage = () => {
                 />
                 <span>
                   <strong className="font-semibold text-gray-900">
-                    Events.
+                    Procurement Consulting
                   </strong>{' '}
-                  Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                  Et magna sit morbi lobortis.
+                  We have unsurpassed expertise of the complex procurement
+                  process
                 </span>
               </li>
             </ul>
             <p className="mt-8">
-              Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-              odio id et. Id blandit molestie auctor fermentum dignissim. Lacus
-              diam tincidunt ac cursus in vel. Mauris varius vulputate et
-              ultrices hac adipiscing egestas. Iaculis convallis ac tempor et
-              ut. Ac lorem vel integer orci.
+              We have a procurement perspective no other Oregon firm offers.
+              Pinnacle Mt. Hood’s ability to represent our client’s business and
+              technology solutions makes us uniquely positioned to support
+              Oregon’s procurement development professionals. Our team’s depth
+              of experience includes decades of Oregon government sales
+              experience, grant writing, and policy development surrounding the
+              procurement process, working directly with Oregon’s Department of
+              Administrative Services and two Oregon CIOs.
             </p>
-            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              From beginner to expert in 3 hours
-            </h2>
-            <p className="mt-6">
-              Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-              consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-              vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-              pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim
-              cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-              ipsum eu a sed convallis diam.
-            </p>
+
             <figure className="mt-10 border-l border-indigo-600 pl-9">
               <blockquote className="font-semibold text-gray-900">
                 <p>
-                  “Vel ultricies morbi odio facilisi ultrices accumsan donec
-                  lacus purus. Lectus nibh ullamcorper ac dictum justo in
-                  euismod. Risus aenean ut elit massa. In amet aliquet eget
-                  cras. Sem volutpat enim tristique.”
+                  "Pinnacle's strategic approach enabled us to save countless
+                  amounts of time and money navigating the procurement process.
+                  They are a trusted partner."
                 </p>
               </blockquote>
               <figcaption className="mt-6 flex gap-x-4">
@@ -116,44 +119,27 @@ const ServicesPage = () => {
                 </div>
               </figcaption>
             </figure>
-            <p className="mt-10">
+            {/* <p className="mt-10">
               Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
               enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
               praesent donec est. Odio penatibus risus viverra tellus varius sit
               neque erat velit.
-            </p>
+            </p> */}
           </div>
           <figure className="mt-16">
             <img
               className="aspect-video rounded-xl bg-gray-50 object-cover"
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+              src="/portrait2.jpg"
               alt=""
             />
-            <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
-              <InformationCircleIcon
-                className="mt-0.5 h-5 w-5 flex-none text-gray-300"
-                aria-hidden="true"
-              />
-              Faucibus commodo massa rhoncus, volutpat.
-            </figcaption>
           </figure>
           <div className="mt-16 max-w-2xl">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900">
               Everything you need to get up and running
             </h2>
             <p className="mt-6">
-              Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam
-              varius orci dapibus volutpat cras. In amet eu ridiculus leo
-              sodales cursus tristique. Tincidunt sed tempus ut viverra
-              ridiculus non molestie. Gravida quis fringilla amet eget dui
-              tempor dignissim. Facilisis auctor venenatis varius nunc, congue
-              erat ac. Cras fermentum convallis quam.
-            </p>
-            <p className="mt-8">
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit.
+              Contact us today to discuss your business needs. We will work with
+              you to develop a plan that will help you achieve your goals.
             </p>
           </div>
         </div>
