@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="bg-gray-900">
         <div className="relative isolate overflow-hidden pt-20">
           <img
-            src="/lavender-dark.jpg"
+            src="/theMountain.jpg"
             alt=""
             className="fixed inset-0 -z-10 h-full w-full object-cover"
           />
