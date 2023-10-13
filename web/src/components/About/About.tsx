@@ -3,7 +3,7 @@ const people = [
     name: 'Tre Hendricks',
     role: 'Founder / CEO',
     imageUrl: '/portrait2.jpg',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    bio: "Embarking on a journey where policy and passion intertwine, Tre Hendricks founded Pinnacle Mt. Hood with a panoramic vision - inspired by the expansive vistas from Mt. Hood's peak.",
     twitterUrl: '#',
     linkedinUrl: '#',
   },
