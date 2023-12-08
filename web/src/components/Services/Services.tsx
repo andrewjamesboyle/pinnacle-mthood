@@ -1,83 +1,83 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-} from '@heroicons/react/20/solid'
+// import {
+//   ArrowPathIcon,
+//   CloudArrowUpIcon,
+//   LockClosedIcon,
+// } from '@heroicons/react/20/solid'
 
-const features = [
-  {
-    name: 'Professional Government Relations',
-    description:
-      'Navigating through the vast and diversified terrains of Oregon’s political landscape, Pinnacle Mt. Hood leverages its seasoned expertise in government relations to build consensus, forge connections, and realize tangible policy victories, always with a panoramic view of the state’s myriad interests and stakes.',
-    href: '/Services',
-    icon: CloudArrowUpIcon,
-  },
+// const features = [
+//   {
+//     name: 'Professional Government Relations',
+//     description:
+//       'Navigating through the vast and diversified terrains of Oregon’s political landscape, Pinnacle Mt. Hood leverages its seasoned expertise in government relations to build consensus, forge connections, and realize tangible policy victories, always with a panoramic view of the state’s myriad interests and stakes.',
+//     href: '/Services',
+//     icon: CloudArrowUpIcon,
+//   },
 
-  {
-    name: 'Superior Legislative Lobbying Services',
-    description:
-      'With a finger firmly on the pulse of legislative currents, our team provides unparalleled lobbying services, offering an in-depth understanding of policy-making processes, identifying opportunities, and advocating for your interests with a persuasive, informed, and strategic approach.',
-    href: '/Services',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Decades of experience',
-    description:
-      'Rooted in decades of multi-faceted experience within Oregon, our team brings to the table an intimate understanding of its geographical, demographic, and economic nuances, ensuring our policy advances are not just informed but also intricately aligned with the heartbeat of the state and its people.',
-    href: '/Services',
-    icon: ArrowPathIcon,
-  },
-]
+//   {
+//     name: 'Superior Legislative Lobbying Services',
+//     description:
+//       'With a finger firmly on the pulse of legislative currents, our team provides unparalleled lobbying services, offering an in-depth understanding of policy-making processes, identifying opportunities, and advocating for your interests with a persuasive, informed, and strategic approach.',
+//     href: '/Services',
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: 'Decades of experience',
+//     description:
+//       'Rooted in decades of multi-faceted experience within Oregon, our team brings to the table an intimate understanding of its geographical, demographic, and economic nuances, ensuring our policy advances are not just informed but also intricately aligned with the heartbeat of the state and its people.',
+//     href: '/Services',
+//     icon: ArrowPathIcon,
+//   },
+// ]
 
-const featuresTwo = [
-  {
-    name: 'Integration and engagement with local government',
-    description:
-      'Engaging meticulously with 242 municipalities, 36 counties, and more, our deep-seated relationships and a two-decade traversal of the state enable us to interface with local government entities effortlessly, ensuring your business navigates smoothly through the regulatory and economic landscapes.',
-    href: '/Services',
-    icon: CloudArrowUpIcon,
-  },
+// const featuresTwo = [
+//   {
+//     name: 'Integration and engagement with local government',
+//     description:
+//       'Engaging meticulously with 242 municipalities, 36 counties, and more, our deep-seated relationships and a two-decade traversal of the state enable us to interface with local government entities effortlessly, ensuring your business navigates smoothly through the regulatory and economic landscapes.',
+//     href: '/Services',
+//     icon: CloudArrowUpIcon,
+//   },
 
-  {
-    name: 'Management of critical regulatory economic impacts',
-    description:
-      'Mitigating regulatory impacts and steering through economic challenges, Pinnacle Mt. Hood strategically manages and influences policy, ensuring it is conducive to both business and the wider communities, while safeguarding the unique environmental and societal ecosystems of Oregon.',
-    href: '/Services',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Key Relationships and Coalition Building',
-    description:
-      'Harnessing the power of unity, we cultivate and leverage key relationships across various sectors and interests, orchestrating coalitions that amplify our advocacy efforts. Our strategic alliances span the spectrum of Oregon’s socio-political arena, enabling broad-based support and consensus-building.',
-    href: '/Services',
-    icon: ArrowPathIcon,
-  },
-]
+//   {
+//     name: 'Management of critical regulatory economic impacts',
+//     description:
+//       'Mitigating regulatory impacts and steering through economic challenges, Pinnacle Mt. Hood strategically manages and influences policy, ensuring it is conducive to both business and the wider communities, while safeguarding the unique environmental and societal ecosystems of Oregon.',
+//     href: '/Services',
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: 'Key Relationships and Coalition Building',
+//     description:
+//       'Harnessing the power of unity, we cultivate and leverage key relationships across various sectors and interests, orchestrating coalitions that amplify our advocacy efforts. Our strategic alliances span the spectrum of Oregon’s socio-political arena, enabling broad-based support and consensus-building.',
+//     href: '/Services',
+//     icon: ArrowPathIcon,
+//   },
+// ]
 
-const featuresThree = [
-  {
-    name: 'Intelligence gathering on procurement actions',
-    description:
-      'Armed with acute business acumen and a unique perspective, we meticulously gather intelligence on procurement actions, providing you with invaluable insights and a strategic edge in navigating through Oregon’s procurement landscape, ensuring your solutions are aptly positioned.',
-    href: '/Services',
-    icon: CloudArrowUpIcon,
-  },
+// const featuresThree = [
+//   {
+//     name: 'Intelligence gathering on procurement actions',
+//     description:
+//       'Armed with acute business acumen and a unique perspective, we meticulously gather intelligence on procurement actions, providing you with invaluable insights and a strategic edge in navigating through Oregon’s procurement landscape, ensuring your solutions are aptly positioned.',
+//     href: '/Services',
+//     icon: CloudArrowUpIcon,
+//   },
 
-  {
-    name: 'Collaboration to improve policies and streamline processes',
-    description:
-      'We do not merely navigate existing procurement processes but also collaborate to enhance them. Through astute policy collaboration and process streamlining, we augment your opportunities, fostering an environment where your business and technology solutions seamlessly intersect with state needs.',
-    href: '/Services',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Unsurpassed expertise of the complex procurement process.',
-    description:
-      'With an unrivaled depth of experience, including tangible engagements with Oregon’s Department of Administrative Services and Chief Information Officers, we navigate the complexities of the procurement process, delivering optimum value and navigating through bureaucratic intricacies with unmatched expertise.',
-    href: '/Services',
-    icon: ArrowPathIcon,
-  },
-]
+//   {
+//     name: 'Collaboration to improve policies and streamline processes',
+//     description:
+//       'We do not merely navigate existing procurement processes but also collaborate to enhance them. Through astute policy collaboration and process streamlining, we augment your opportunities, fostering an environment where your business and technology solutions seamlessly intersect with state needs.',
+//     href: '/Services',
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: 'Unsurpassed expertise of the complex procurement process.',
+//     description:
+//       'With an unrivaled depth of experience, including tangible engagements with Oregon’s Department of Administrative Services and Chief Information Officers, we navigate the complexities of the procurement process, delivering optimum value and navigating through bureaucratic intricacies with unmatched expertise.',
+//     href: '/Services',
+//     icon: ArrowPathIcon,
+//   },
+// ]
 
 export default function Services() {
   return (
