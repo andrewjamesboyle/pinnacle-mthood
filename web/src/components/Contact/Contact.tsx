@@ -39,7 +39,7 @@ const Contact = () => {
       console.error('Error', error)
     }
   }
-
+// comment for commit
   return (
     <section id="Contact">
       <div className="relative isolate bg-white">
