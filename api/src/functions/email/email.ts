@@ -52,18 +52,19 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
 
   try {
     await sgMail.send(msg)
-
-    return {
-      statusCode: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'https://pmhadvocacy.com',
-        'Access-Control-Allow-Methods': 'OPTIONS, POST',
-        'Access-Control-Allow-Headers': 'Content-Type',
-      },
-      body: JSON.stringify({
-        data: 'Email sent successfully',
-      }),
+    if (event.httpMethod === 'OPTIONS') {
+      return {
+        statusCode: 200,
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': 'https://pmhadvocacy.com',
+          'Access-Control-Allow-Methods': 'OPTIONS, POST',
+          'Access-Control-Allow-Headers': 'Content-Type',
+        },
+        body: JSON.stringify({
+          data: 'Email sent successfully',
+        }),
+      }
     }
   } catch (error) {
     console.error(error)
