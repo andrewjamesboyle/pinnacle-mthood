@@ -4844,12 +4844,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sendgrid/client@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "@sendgrid/client@npm:8.1.0"
+  dependencies:
+    "@sendgrid/helpers": ^8.0.0
+    axios: ^1.6.0
+  checksum: 239e6c94d76c845d117eb4719a22e3f83e5736e57970ff62596442ef392504b89c624640dccb6d6842a58fdbd4c651225b1dd3bbdcff5d5b76c83254145990ee
+  languageName: node
+  linkType: hard
+
 "@sendgrid/helpers@npm:^7.7.0":
   version: 7.7.0
   resolution: "@sendgrid/helpers@npm:7.7.0"
   dependencies:
     deepmerge: ^4.2.2
   checksum: 14dfe9af191dd9ad18f0b2744d6d12dbc80f830507b6112d8c4c1c4741ff282393a06e4b4559c0f404d33971639ecadb1017e0cc3b7187e56ec64ab9ee5ff21c
+  languageName: node
+  linkType: hard
+
+"@sendgrid/helpers@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "@sendgrid/helpers@npm:8.0.0"
+  dependencies:
+    deepmerge: ^4.2.2
+  checksum: e7f341099c63915eb095102f8c7ec220a8f2fb66a0cd836ab91e7424005e7c5fd27b65e3a5ed43654f5b2b3608fa7d14ebba924ff86e5d0bdfeaf0248f836a50
   languageName: node
   linkType: hard
 
@@ -4860,6 +4879,16 @@ __metadata:
     "@sendgrid/client": ^7.7.0
     "@sendgrid/helpers": ^7.7.0
   checksum: 5a1d617f1e3f8d47d4fe188ff08f18fca63e3006545ad1f954bf30887806c810f6c0dea7d8850c24de03b3aca75f70f4324369ed2497d957870b8a65f1451127
+  languageName: node
+  linkType: hard
+
+"@sendgrid/mail@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "@sendgrid/mail@npm:8.1.0"
+  dependencies:
+    "@sendgrid/client": ^8.1.0
+    "@sendgrid/helpers": ^8.0.0
+  checksum: 7c4db3996898ed1ecc70bb410df83b6a8171001af31399602bc41c3dbf91766fc9a0a0d6dde14af49293e1e08142d5be79d0608bcde0f0e5c3ff6ca91db8f6a7
   languageName: node
   linkType: hard
 
@@ -8594,6 +8623,17 @@ __metadata:
   dependencies:
     follow-redirects: ^1.14.8
   checksum: 77ad7f1e6ca04fcd3fa8af1795b09d8b7c005b71a31f28d99ba40cda0bdcc12a4627801d7fac5efa62b9f667a8402bd54c669039694373bc8d44f6be611f785c
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.6.0":
+  version: 1.6.2
+  resolution: "axios@npm:1.6.2"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: 9b77e030e85e4f9cbcba7bb52fbff67d6ce906c92d213e0bd932346a50140faf83733bf786f55bd58301bd92f9973885c7b87d6348023e10f7eaf286d0791a1d
   languageName: node
   linkType: hard
 
@@ -13301,6 +13341,16 @@ __metadata:
     debug:
       optional: true
   checksum: da5932b70e63944d38eecaa16954bac4347036f08303c913d166eda74809d8797d38386e3a0eb1d2fe37d2aaff2764cce8e9dbd99459d860cf2cdfa237923b5f
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.15.0":
+  version: 1.15.3
+  resolution: "follow-redirects@npm:1.15.3"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 915a2cf22e667bdf47b1a43cc6b7dce14d95039e9bbf9a24d0e739abfbdfa00077dd43c86d4a7a19efefcc7a99af144920a175eedc3888d268af5df67c272ee5
   languageName: node
   linkType: hard
 
@@ -20242,6 +20292,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: fe7dd8b1bdbbbea18d1459107729c3e4a2243ca870d26d34c2c1bcd3e4425b7bcc5112362df2d93cc7fb9746f6142b5e272fd1cc5c86ddf8580175186f6ad42b
+  languageName: node
+  linkType: hard
+
 "proxyquire@npm:2.1.3":
   version: 2.1.3
   resolution: "proxyquire@npm:2.1.3"
@@ -21377,7 +21434,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": 5.3.0
-    "@sendgrid/mail": ^7.7.0
+    "@sendgrid/mail": ^8.1.0
     prettier-plugin-tailwindcss: ^0.3.0
   languageName: unknown
   linkType: soft

@@ -1,11 +1,11 @@
 const people = [
   {
     name: 'Tre Hendricks',
-    role: 'Founder / CEO',
+    role: 'Founder / Managing Partner',
     imageUrl: '/portrait2.jpg',
-    bio: "Embarking on a journey where policy and passion intertwine, Tre Hendricks founded Pinnacle Mt. Hood with a panoramic vision - inspired by the expansive vistas from Mt. Hood's peak.",
+    // bio: ,
     twitterUrl: '#',
-    linkedinUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/tre-hendricks-4a713391/',
   },
 ]
 
@@ -19,8 +19,15 @@ export default function About() {
               About
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We’re a dynamic group of individuals who are passionate about what
-              we do and dedicated to delivering the best results for our
+              Tre has 25 years of experience as an attorney and government
+              affairs professional, leading teams in government advocacy before
+              legislatures and agencies. He has worked as an administrative
+              judge, litigated complex regulatory issues, lobbied state
+              legislatures to craft the law, and led interdepartmental,
+              cross-functional teams, including teams of government affairs
+              professionals in Oregon and most western states – this unique and
+              diverse experience allows Tre to identify issues in legislative
+              action and state agency proceedings, delivering results for
               clients.
             </p>
           </div>
@@ -31,7 +38,7 @@ export default function About() {
                 className="flex flex-col gap-10 pt-12 sm:flex-row"
               >
                 <img
-                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                  className="aspect-[4/5] w-72 flex-none rounded-2xl object-cover"
                   src={person.imageUrl}
                   alt=""
                 />
@@ -42,11 +49,11 @@ export default function About() {
                   <p className="text-base leading-7 text-gray-600">
                     {person.role}
                   </p>
-                  <p className="mt-6 text-base leading-7 text-gray-600">
+                  {/* <p className="mt-6 text-base leading-7 text-gray-600">
                     {person.bio}
-                  </p>
+                  </p> */}
                   <ul className="mt-6 flex gap-x-6">
-                    <li>
+                    {/* <li>
                       <a
                         href={person.twitterUrl}
                         className="text-gray-400 hover:text-gray-500"
@@ -61,7 +68,7 @@ export default function About() {
                           <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
                         </svg>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href={person.linkedinUrl}

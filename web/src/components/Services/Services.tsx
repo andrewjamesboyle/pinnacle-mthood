@@ -1,83 +1,83 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-} from '@heroicons/react/20/solid'
+// import {
+//   ArrowPathIcon,
+//   CloudArrowUpIcon,
+//   LockClosedIcon,
+// } from '@heroicons/react/20/solid'
 
-const features = [
-  {
-    name: 'Professional Government Relations',
-    description:
-      'Navigating through the vast and diversified terrains of Oregon’s political landscape, Pinnacle Mt. Hood leverages its seasoned expertise in government relations to build consensus, forge connections, and realize tangible policy victories, always with a panoramic view of the state’s myriad interests and stakes.',
-    href: '/Services',
-    icon: CloudArrowUpIcon,
-  },
+// const features = [
+//   {
+//     name: 'Professional Government Relations',
+//     description:
+//       'Navigating through the vast and diversified terrains of Oregon’s political landscape, Pinnacle Mt. Hood leverages its seasoned expertise in government relations to build consensus, forge connections, and realize tangible policy victories, always with a panoramic view of the state’s myriad interests and stakes.',
+//     href: '/Services',
+//     icon: CloudArrowUpIcon,
+//   },
 
-  {
-    name: 'Superior Legislative Lobbying Services',
-    description:
-      'With a finger firmly on the pulse of legislative currents, our team provides unparalleled lobbying services, offering an in-depth understanding of policy-making processes, identifying opportunities, and advocating for your interests with a persuasive, informed, and strategic approach.',
-    href: '/Services',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Decades of experience',
-    description:
-      'Rooted in decades of multi-faceted experience within Oregon, our team brings to the table an intimate understanding of its geographical, demographic, and economic nuances, ensuring our policy advances are not just informed but also intricately aligned with the heartbeat of the state and its people.',
-    href: '/Services',
-    icon: ArrowPathIcon,
-  },
-]
+//   {
+//     name: 'Superior Legislative Lobbying Services',
+//     description:
+//       'With a finger firmly on the pulse of legislative currents, our team provides unparalleled lobbying services, offering an in-depth understanding of policy-making processes, identifying opportunities, and advocating for your interests with a persuasive, informed, and strategic approach.',
+//     href: '/Services',
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: 'Decades of experience',
+//     description:
+//       'Rooted in decades of multi-faceted experience within Oregon, our team brings to the table an intimate understanding of its geographical, demographic, and economic nuances, ensuring our policy advances are not just informed but also intricately aligned with the heartbeat of the state and its people.',
+//     href: '/Services',
+//     icon: ArrowPathIcon,
+//   },
+// ]
 
-const featuresTwo = [
-  {
-    name: 'Integration and engagement with local government',
-    description:
-      'Engaging meticulously with 242 municipalities, 36 counties, and more, our deep-seated relationships and a two-decade traversal of the state enable us to interface with local government entities effortlessly, ensuring your business navigates smoothly through the regulatory and economic landscapes.',
-    href: '/Services',
-    icon: CloudArrowUpIcon,
-  },
+// const featuresTwo = [
+//   {
+//     name: 'Integration and engagement with local government',
+//     description:
+//       'Engaging meticulously with 242 municipalities, 36 counties, and more, our deep-seated relationships and a two-decade traversal of the state enable us to interface with local government entities effortlessly, ensuring your business navigates smoothly through the regulatory and economic landscapes.',
+//     href: '/Services',
+//     icon: CloudArrowUpIcon,
+//   },
 
-  {
-    name: 'Management of critical regulatory economic impacts',
-    description:
-      'Mitigating regulatory impacts and steering through economic challenges, Pinnacle Mt. Hood strategically manages and influences policy, ensuring it is conducive to both business and the wider communities, while safeguarding the unique environmental and societal ecosystems of Oregon.',
-    href: '/Services',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Key Relationships and Coalition Building',
-    description:
-      'Harnessing the power of unity, we cultivate and leverage key relationships across various sectors and interests, orchestrating coalitions that amplify our advocacy efforts. Our strategic alliances span the spectrum of Oregon’s socio-political arena, enabling broad-based support and consensus-building.',
-    href: '/Services',
-    icon: ArrowPathIcon,
-  },
-]
+//   {
+//     name: 'Management of critical regulatory economic impacts',
+//     description:
+//       'Mitigating regulatory impacts and steering through economic challenges, Pinnacle Mt. Hood strategically manages and influences policy, ensuring it is conducive to both business and the wider communities, while safeguarding the unique environmental and societal ecosystems of Oregon.',
+//     href: '/Services',
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: 'Key Relationships and Coalition Building',
+//     description:
+//       'Harnessing the power of unity, we cultivate and leverage key relationships across various sectors and interests, orchestrating coalitions that amplify our advocacy efforts. Our strategic alliances span the spectrum of Oregon’s socio-political arena, enabling broad-based support and consensus-building.',
+//     href: '/Services',
+//     icon: ArrowPathIcon,
+//   },
+// ]
 
-const featuresThree = [
-  {
-    name: 'Intelligence gathering on procurement actions',
-    description:
-      'Armed with acute business acumen and a unique perspective, we meticulously gather intelligence on procurement actions, providing you with invaluable insights and a strategic edge in navigating through Oregon’s procurement landscape, ensuring your solutions are aptly positioned.',
-    href: '/Services',
-    icon: CloudArrowUpIcon,
-  },
+// const featuresThree = [
+//   {
+//     name: 'Intelligence gathering on procurement actions',
+//     description:
+//       'Armed with acute business acumen and a unique perspective, we meticulously gather intelligence on procurement actions, providing you with invaluable insights and a strategic edge in navigating through Oregon’s procurement landscape, ensuring your solutions are aptly positioned.',
+//     href: '/Services',
+//     icon: CloudArrowUpIcon,
+//   },
 
-  {
-    name: 'Collaboration to improve policies and streamline processes',
-    description:
-      'We do not merely navigate existing procurement processes but also collaborate to enhance them. Through astute policy collaboration and process streamlining, we augment your opportunities, fostering an environment where your business and technology solutions seamlessly intersect with state needs.',
-    href: '/Services',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Unsurpassed expertise of the complex procurement process.',
-    description:
-      'With an unrivaled depth of experience, including tangible engagements with Oregon’s Department of Administrative Services and Chief Information Officers, we navigate the complexities of the procurement process, delivering optimum value and navigating through bureaucratic intricacies with unmatched expertise.',
-    href: '/Services',
-    icon: ArrowPathIcon,
-  },
-]
+//   {
+//     name: 'Collaboration to improve policies and streamline processes',
+//     description:
+//       'We do not merely navigate existing procurement processes but also collaborate to enhance them. Through astute policy collaboration and process streamlining, we augment your opportunities, fostering an environment where your business and technology solutions seamlessly intersect with state needs.',
+//     href: '/Services',
+//     icon: LockClosedIcon,
+//   },
+//   {
+//     name: 'Unsurpassed expertise of the complex procurement process.',
+//     description:
+//       'With an unrivaled depth of experience, including tangible engagements with Oregon’s Department of Administrative Services and Chief Information Officers, we navigate the complexities of the procurement process, delivering optimum value and navigating through bureaucratic intricacies with unmatched expertise.',
+//     href: '/Services',
+//     icon: ArrowPathIcon,
+//   },
+// ]
 
 export default function Services() {
   return (
@@ -107,7 +107,7 @@ export default function Services() {
                 Communications Commission to resolve client’s issues.
               </p>
             </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
@@ -132,7 +132,7 @@ export default function Services() {
                   </div>
                 ))}
               </dl>
-            </div>
+            </div> */}
           </div>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -154,20 +154,20 @@ export default function Services() {
                 Local Government Affairs
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Pinnacle Mt. Hood works closely with local government to solve
-                policy issues, utilizing its deep understanding of state and
-                relevant federal law. When we engage with local government, we
-                do so in-person using relationships we have cultivated over the
-                course of two decades traversing the state by plane, train, and
-                automobile. At the time of this writing, Oregon contained 242
-                incorporated municipalities, 36 counties, 22 port districts, and
-                28 types of special districts. They are all critical to Oregon’s
-                economy and can have a significant impact on business activity
-                and regulation. We make the job of interfacing with them simple,
+                Pinnacle Mt. Hood works closely with local government to deliver
+                positive outcomes for clients, utilizing its deep understanding
+                of state and relevant federal law. When we engage with local
+                government, we do so in-person with relationships we have
+                cultivated over the course of two decades traversing the state.
+                Oregon local government consists of 242 incorporated
+                municipalities, 36 counties, 22 port districts, and 28 types of
+                special districts. They are all critical to Oregon’s economy and
+                can have a significant impact on business activity and
+                regulation. We make the job of interfacing with them simple,
                 easy, and successful for your business.
               </p>
             </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 {featuresTwo.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
@@ -192,12 +192,12 @@ export default function Services() {
                   </div>
                 ))}
               </dl>
-            </div>
+            </div> */}
           </div>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <img
-                src="/plants.jpg"
+                src="/capitol2.jpg"
                 alt="App screenshot"
                 className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
                 width={2432}
@@ -214,17 +214,33 @@ export default function Services() {
                 Procurement Consulting
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                We have a procurement perspective no other Oregon firm offers.
-                Pinnacle Mt. Hood’s ability to represent our client’s business
-                and technology solutions makes us uniquely positioned to support
-                Oregon’s procurement development professionals. Our team’s depth
-                of experience includes decades of Oregon government sales
-                experience, grant writing, and policy development surrounding
-                the procurement process, working directly with Oregon’s
-                Department of Administrative Services and two Oregon CIOs.
+                We have a procurement perspective that is unique in the
+                industry. Pinnacle Mt. Hood staff has supported SLED sales
+                professionals within the largest organizations and understands
+                the needs of government sales teams. Our depth of experience
+                includes decades of Oregon government sales experience, grant
+                writing, and policy development surrounding the procurement
+                process, working directly with Oregon’s Department of
+                Administrative Services and two Oregon CIOs.
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                We deliver…
+                <ul className="list-disc space-y-2 pl-5 text-lg text-gray-600">
+                  <li>Intelligence gathering on procurement actions.</li>
+                  <li>
+                    Collaboration to improve policies and streamline processes.
+                  </li>
+                  <li>
+                    New opportunities and increasing the value of existing
+                    solicitations.
+                  </li>
+                  <li>
+                    Unsurpassed expertise of the complex procurement process.
+                  </li>
+                </ul>
               </p>
             </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 {featuresThree.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
@@ -249,7 +265,7 @@ export default function Services() {
                   </div>
                 ))}
               </dl>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
