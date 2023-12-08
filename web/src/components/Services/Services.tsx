@@ -107,7 +107,7 @@ export default function Services() {
                 Communications Commission to resolve client’s issues.
               </p>
             </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
@@ -132,7 +132,7 @@ export default function Services() {
                   </div>
                 ))}
               </dl>
-            </div>
+            </div> */}
           </div>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -167,7 +167,7 @@ export default function Services() {
                 easy, and successful for your business.
               </p>
             </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 {featuresTwo.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
@@ -192,7 +192,7 @@ export default function Services() {
                   </div>
                 ))}
               </dl>
-            </div>
+            </div> */}
           </div>
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -221,15 +221,26 @@ export default function Services() {
                 includes decades of Oregon government sales experience, grant
                 writing, and policy development surrounding the procurement
                 process, working directly with Oregon’s Department of
-                Administrative Services and two Oregon CIOs. We deliver… 
-                Intelligence gathering on procurement actions.  Collaboration
-                to improve policies and streamline processes.  New
-                opportunities and increasing the value of existing
-                solicitations.  Unsurpassed expertise of the complex
-                procurement process.
+                Administrative Services and two Oregon CIOs.
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                We deliver…
+                <ul className="list-disc space-y-2 pl-5 text-lg text-gray-600">
+                  <li>Intelligence gathering on procurement actions.</li>
+                  <li>
+                    Collaboration to improve policies and streamline processes.
+                  </li>
+                  <li>
+                    New opportunities and increasing the value of existing
+                    solicitations.
+                  </li>
+                  <li>
+                    Unsurpassed expertise of the complex procurement process.
+                  </li>
+                </ul>
               </p>
             </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                 {featuresThree.map((feature) => (
                   <div key={feature.name} className="flex flex-col">
@@ -254,7 +265,7 @@ export default function Services() {
                   </div>
                 ))}
               </dl>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
