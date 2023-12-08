@@ -57,6 +57,9 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
       statusCode: 200,
       headers: {
         'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': 'https://pmhadvocacy.com',
+        'Access-Control-Allow-Methods': 'OPTIONS, POST',
+        'Access-Control-Allow-Headers': 'Content-Type',
       },
       body: JSON.stringify({
         data: 'Email sent successfully',
