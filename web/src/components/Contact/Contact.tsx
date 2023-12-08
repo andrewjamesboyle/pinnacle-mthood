@@ -20,13 +20,16 @@ const Contact = () => {
   const onSubmit: SubmitHandler<FormValues> = async (userData) => {
     try {
       console.log('userData front end', userData)
-      const response = await fetch('/.redwood/functions/email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(userData),
-      })
+      const response = await fetch(
+        'https://pmhadvocacy.com/api/functions/email',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(userData),
+        }
+      )
 
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`)
@@ -39,7 +42,7 @@ const Contact = () => {
       console.error('Error', error)
     }
   }
-// comment for commit
+  // comment for commit
   return (
     <section id="Contact">
       <div className="relative isolate bg-white">
