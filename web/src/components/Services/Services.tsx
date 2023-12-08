@@ -154,16 +154,16 @@ export default function Services() {
                 Local Government Affairs
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Pinnacle Mt. Hood works closely with local government to solve
-                policy issues, utilizing its deep understanding of state and
-                relevant federal law. When we engage with local government, we
-                do so in-person using relationships we have cultivated over the
-                course of two decades traversing the state by plane, train, and
-                automobile. At the time of this writing, Oregon contained 242
-                incorporated municipalities, 36 counties, 22 port districts, and
-                28 types of special districts. They are all critical to Oregon’s
-                economy and can have a significant impact on business activity
-                and regulation. We make the job of interfacing with them simple,
+                Pinnacle Mt. Hood works closely with local government to deliver
+                positive outcomes for clients, utilizing its deep understanding
+                of state and relevant federal law. When we engage with local
+                government, we do so in-person with relationships we have
+                cultivated over the course of two decades traversing the state.
+                Oregon local government consists of 242 incorporated
+                municipalities, 36 counties, 22 port districts, and 28 types of
+                special districts. They are all critical to Oregon’s economy and
+                can have a significant impact on business activity and
+                regulation. We make the job of interfacing with them simple,
                 easy, and successful for your business.
               </p>
             </div>
@@ -214,14 +214,19 @@ export default function Services() {
                 Procurement Consulting
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                We have a procurement perspective no other Oregon firm offers.
-                Pinnacle Mt. Hood’s ability to represent our client’s business
-                and technology solutions makes us uniquely positioned to support
-                Oregon’s procurement development professionals. Our team’s depth
-                of experience includes decades of Oregon government sales
-                experience, grant writing, and policy development surrounding
-                the procurement process, working directly with Oregon’s
-                Department of Administrative Services and two Oregon CIOs.
+                We have a procurement perspective that is unique in the
+                industry. Pinnacle Mt. Hood staff has supported SLED sales
+                professionals within the largest organizations and understands
+                the needs of government sales teams. Our depth of experience
+                includes decades of Oregon government sales experience, grant
+                writing, and policy development surrounding the procurement
+                process, working directly with Oregon’s Department of
+                Administrative Services and two Oregon CIOs. We deliver… 
+                Intelligence gathering on procurement actions.  Collaboration
+                to improve policies and streamline processes.  New
+                opportunities and increasing the value of existing
+                solicitations.  Unsurpassed expertise of the complex
+                procurement process.
               </p>
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

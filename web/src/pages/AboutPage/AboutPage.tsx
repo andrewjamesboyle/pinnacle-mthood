@@ -51,14 +51,14 @@ const AboutPage = () => {
                 About Us
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Pinnacle Mt. Hood’s approach and success in advocacy have been
-                inspired by Oregon’s monolithic landmark. From Mt. Hood’s peak,
-                one can see most of the state; the vast eastern High Desert, the
-                great Columbia River Basin, the spine of the Cascade Mountains,
-                the burgeoning wine country of the Willamette Valley, the
-                metropolis of Portland, the Coast Range, and hidden just behind
-                it the expanse of the Pacific Ocean and the communities that
-                inhabit its shores.
+                Pinnacle Mt. Hood’s success in advocacy is inspired by Oregon’s
+                monolithic landmark. From Mt. Hood’s peak, one can see most of
+                the state; the vast eastern High Desert, the great Columbia
+                River Basin, the spine of the Cascade Mountains, the burgeoning
+                wine country of the Willamette Valley, the metropolis of
+                Portland, the Coast Range, and hidden just behind it the expanse
+                of the Pacific Ocean and the communities that inhabit its
+                shores.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 We achieve results by building consensus among diverse and often

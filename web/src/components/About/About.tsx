@@ -1,7 +1,7 @@
 const people = [
   {
     name: 'Tre Hendricks',
-    role: 'Founder / CEO',
+    role: 'Founder / Managing Partner',
     imageUrl: '/portrait2.jpg',
     bio: "Embarking on a journey where policy and passion intertwine, Tre Hendricks founded Pinnacle Mt. Hood with a panoramic vision - inspired by the expansive vistas from Mt. Hood's peak.",
     twitterUrl: '#',
@@ -19,8 +19,15 @@ export default function About() {
               About
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We’re a dynamic group of individuals who are passionate about what
-              we do and dedicated to delivering the best results for our
+              Tre has 25 years of experience as an attorney and government
+              affairs professional, leading teams in government advocacy before
+              legislatures and agencies. He has worked as an administrative
+              judge, litigated complex regulatory issues, lobbied state
+              legislatures to craft the law, and led interdepartmental,
+              cross-functional teams, including teams of government affairs
+              professionals in Oregon and most western states – this unique and
+              diverse experience allows Tre to identify issues in legislative
+              action and state agency proceedings, delivering results for
               clients.
             </p>
           </div>
@@ -31,7 +38,7 @@ export default function About() {
                 className="flex flex-col gap-10 pt-12 sm:flex-row"
               >
                 <img
-                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                  className="aspect-[4/5] w-72 flex-none rounded-2xl object-cover"
                   src={person.imageUrl}
                   alt=""
                 />
