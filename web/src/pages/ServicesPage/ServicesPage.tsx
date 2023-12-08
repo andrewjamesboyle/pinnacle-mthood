@@ -94,7 +94,7 @@ const ServicesPage = () => {
               Administrative Services and two Oregon CIOs.
             </p>
 
-            <figure className="mt-10 border-l border-indigo-600 pl-9">
+            {/* <figure className="mt-10 border-l border-indigo-600 pl-9">
               <blockquote className="font-semibold text-gray-900">
                 <p>
                   "Pinnacle's strategic approach enabled us to save countless
@@ -115,7 +115,7 @@ const ServicesPage = () => {
                   – Marketing Manager
                 </div>
               </figcaption>
-            </figure>
+            </figure> */}
             {/* <p className="mt-10">
               Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
               enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor

@@ -1,29 +1,29 @@
 import { MetaTags } from '@redwoodjs/web'
 
-const people = [
-  {
-    name: 'Tre Hendricks',
-    role: 'Founder / CEO',
-    imageUrl: '/portrait2.jpg',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Tre Hendricks',
-    role: 'Founder / CEO',
-    imageUrl: '/portrait2.jpg',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Tre Hendricks',
-    role: 'Founder / CEO',
-    imageUrl: '/portrait2.jpg',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-  // More people...
-]
+// const people = [
+//   {
+//     name: 'Tre Hendricks',
+//     role: 'Founder / CEO',
+//     imageUrl: '/portrait2.jpg',
+//     twitterUrl: '#',
+//     linkedinUrl: '#',
+//   },
+//   {
+//     name: 'Tre Hendricks',
+//     role: 'Founder / CEO',
+//     imageUrl: '/portrait2.jpg',
+//     twitterUrl: '#',
+//     linkedinUrl: '#',
+//   },
+//   {
+//     name: 'Tre Hendricks',
+//     role: 'Founder / CEO',
+//     imageUrl: '/portrait2.jpg',
+//     twitterUrl: '#',
+//     linkedinUrl: '#',
+//   },
+//   // More people...
+// ]
 
 const AboutPage = () => {
   return (
@@ -84,7 +84,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="mt-8 bg-white py-8 sm:mt-8 sm:py-12 md:mt-12 md:py-16 lg:mt-16 lg:py-20 xl:mt-20 xl:py-24 2xl:mt-24 2xl:py-32">
+          {/* <div className="mt-8 bg-white py-8 sm:mt-8 sm:py-12 md:mt-12 md:py-16 lg:mt-16 lg:py-20 xl:mt-20 xl:py-24 2xl:mt-24 2xl:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-5xl lg:mx-0">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -152,7 +152,7 @@ const AboutPage = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </main>
       </div>
     </>
