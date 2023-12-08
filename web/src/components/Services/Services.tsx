@@ -197,7 +197,7 @@ export default function Services() {
           <div className="relative overflow-hidden pt-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <img
-                src="/plants.jpg"
+                src="/capitol2.jpg"
                 alt="App screenshot"
                 className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
                 width={2432}

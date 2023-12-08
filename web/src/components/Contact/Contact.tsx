@@ -1,8 +1,4 @@
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from '@heroicons/react/24/outline'
+import { EnvelopeIcon } from '@heroicons/react/24/outline'
 
 import {
   FieldError,
@@ -31,10 +27,14 @@ const Contact = () => {
         },
         body: JSON.stringify(userData),
       })
-      formMethods.reset()
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`)
+      }
 
       const data = await response.json()
       console.log(data)
+      formMethods.reset()
     } catch (error) {
       console.error('Error', error)
     }

@@ -25,10 +25,17 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
   console.log('userData', userData)
   logger.info(`${event.httpMethod} ${event.path}: email function`)
 
+  if (!userData.firstName || !userData.email || !userData.message) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: 'Missing required fields' }),
+    }
+  }
+
   const msg = {
-    to: 'info@synclinesoftwaresolutions.com',
-    from: 'info@synclinesoftwaresolutions.com',
-    subject: 'Contact Form Submission',
+    to: 'andrewboylecodes@gmail.com',
+    from: userData.email,
+    subject: 'PMH Contact Submission',
     text: `
       Name: ${userData.firstName}
       Email: ${userData.email}
