@@ -39,6 +39,7 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
   // Process POST request
   if (event.httpMethod === 'POST') {
     try {
+      console.log('event.body', event.body)
       const userData = JSON.parse(event.body)
       logger.info(`${event.httpMethod} ${event.path}: email function`)
 
