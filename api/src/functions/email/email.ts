@@ -54,7 +54,7 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
       }
 
       const msg = {
-        to: 'andrewboylecodes@gmail.com',
+        to: 'tre@pmhadvocacy.com',
         from: userData.email,
         subject: 'PMH Contact Submission',
         text: `
