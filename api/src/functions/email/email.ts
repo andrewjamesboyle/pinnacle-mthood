@@ -21,63 +21,85 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
  * function, and execution environment.
  */
 export const handler = async (event: APIGatewayEvent, _context: Context) => {
-  const userData = JSON.parse(event.body)
-  console.log('userData', userData)
-  logger.info(`${event.httpMethod} ${event.path}: email function`)
-
-  if (!userData.firstName || !userData.email || !userData.message) {
+  if (event.httpMethod === 'OPTIONS') {
     return {
-      statusCode: 400,
-      body: JSON.stringify({ error: 'Missing required fields' }),
+      statusCode: 200,
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': 'https://pmhadvocacy.com',
+        'Access-Control-Allow-Methods': 'OPTIONS, POST',
+        'Access-Control-Allow-Headers': 'Content-Type',
+      },
+      body: JSON.stringify({
+        data: 'Email sent successfully',
+      }),
     }
   }
 
-  const msg = {
-    to: 'andrewboylecodes@gmail.com',
-    from: userData.email,
-    subject: 'PMH Contact Submission',
-    text: `
+  // Process POST request
+  if (event.httpMethod === 'POST') {
+    try {
+      const userData = JSON.parse(event.body)
+      logger.info(`${event.httpMethod} ${event.path}: email function`)
+
+      if (!userData.firstName || !userData.email || !userData.message) {
+        return {
+          statusCode: 400,
+          body: JSON.stringify({ error: 'Missing required fields' }),
+        }
+      }
+
+      const msg = {
+        to: 'andrewboylecodes@gmail.com',
+        from: userData.email,
+        subject: 'PMH Contact Submission',
+        text: `
       Name: ${userData.firstName}
       Email: ${userData.email}
       Message: ${userData.message}
       Phone: ${userData.phoneNumber}
     `,
-    html: `
+        html: `
       <strong>Name:</strong> ${userData.firstName} ${userData.lastName}<br>
       <strong>Email:</strong> ${userData.email}<br>
       <strong>Message:</strong><br>${userData.message}<br>
       <strong>Phone:</strong><br>${userData.phoneNumber}
     `,
-  }
+      }
 
-  try {
-    await sgMail.send(msg)
-    if (event.httpMethod === 'OPTIONS') {
+      await sgMail.send(msg)
+
       return {
         statusCode: 200,
         headers: {
           'Content-Type': 'application/json',
           'Access-Control-Allow-Origin': 'https://pmhadvocacy.com',
-          'Access-Control-Allow-Methods': 'OPTIONS, POST',
-          'Access-Control-Allow-Headers': 'Content-Type',
         },
         body: JSON.stringify({
           data: 'Email sent successfully',
         }),
       }
-    }
-  } catch (error) {
-    console.error(error)
+    } catch (error) {
+      console.error(error)
 
-    if (error.response) {
-      console.error(error.response.body)
-    }
+      if (error.response) {
+        console.error(error.response.body)
+      }
 
-    return {
-      statusCode: 500,
-      body: JSON.stringify({
-        error: 'An error occurred while trying to send the email',
-      }),
+      return {
+        statusCode: 500,
+        body: JSON.stringify({
+          error: 'An error occurred while trying to send the email',
+        }),
+      }
     }
+  }
+
+  // If the HTTP method is not supported (neither OPTIONS nor POST)
+  return {
+    statusCode: 405,
+    body: JSON.stringify({
+      error: 'Method Not Allowed',
+    }),
   }
 }
