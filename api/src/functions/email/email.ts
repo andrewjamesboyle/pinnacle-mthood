@@ -40,7 +40,10 @@ export const handler = async (event: APIGatewayEvent, _context: Context) => {
   if (event.httpMethod === 'POST') {
     try {
       console.log('event.body', event.body)
-      const userData = JSON.parse(event.body)
+      // Decode from Base64 then parse as JSON
+      const decodedBody = Buffer.from(event.body, 'base64').toString('utf-8')
+      const userData = JSON.parse(decodedBody)
+
       logger.info(`${event.httpMethod} ${event.path}: email function`)
 
       if (!userData.firstName || !userData.email || !userData.message) {
