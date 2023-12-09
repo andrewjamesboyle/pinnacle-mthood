@@ -20,7 +20,7 @@ const Contact = () => {
   const onSubmit: SubmitHandler<FormValues> = async (userData) => {
     try {
       console.log('userData front end', userData)
-      const response = await fetch('/.redwood/functions/email', {
+      const response = await fetch('/api/email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
