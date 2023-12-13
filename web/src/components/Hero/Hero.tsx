@@ -10,14 +10,14 @@ const Hero = () => {
 
   return (
     <section id="Hero">
-      <div className="bg-gray-900">
+      <div className="bg-white">
         <div className="relative isolate overflow-hidden pt-20">
           <img
             src="/theMountain.jpg"
             alt=""
-            className="fixed inset-0 -z-10 h-auto max-h-[90vh] min-h-full w-full object-cover object-center"
+            className="fixed inset-0 -z-10 mx-auto h-auto max-h-[90vh] min-h-full w-full max-w-full bg-white object-cover object-center xl:max-w-[80vw]"
           />
-          <div className="lg:py-30 mx-auto max-h-full max-w-4xl justify-center  object-cover  py-40 sm:py-40">
+          <div className="lg:py-30 mx-auto max-h-full max-w-4xl justify-center object-cover py-40 sm:py-40">
             <div className="text-center">
               <h1 className="max-w-full justify-center text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Pinnacle Advocacy

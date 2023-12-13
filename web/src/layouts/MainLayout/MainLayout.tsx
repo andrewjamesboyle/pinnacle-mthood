@@ -7,7 +7,7 @@ type MainLayoutProps = {
 const MainLayout = ({ children }: MainLayoutProps) => {
   return (
     <>
-      <div className="bg-gray-900">
+      <div className="bg-gray-300">
         <Header />
       </div>
       <div>
