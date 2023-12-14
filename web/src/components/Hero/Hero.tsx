@@ -15,7 +15,7 @@ const Hero = () => {
           <img
             src="/theMountain.jpg"
             alt=""
-            className="fixed inset-0 -z-10 mx-auto h-auto max-h-[90vh] min-h-full w-full max-w-full bg-white object-cover object-center xl:max-w-[80vw]"
+            className="fixed inset-0 -z-10 mx-auto h-auto max-h-[90vh] min-h-full w-full max-w-full bg-white object-cover object-center xl:mt-[-5rem] xl:max-w-[80vw]"
           />
           <div className="lg:py-30 mx-auto max-h-full max-w-4xl justify-center object-cover py-40 sm:py-40">
             <div className="text-center">
