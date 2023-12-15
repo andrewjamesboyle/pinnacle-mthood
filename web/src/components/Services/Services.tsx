@@ -99,12 +99,12 @@ export default function Services() {
                 Legislature. In addition, we have succeeded in delivering
                 millions in benefits and cost savings in agency rulemakings and
                 contested case proceedings. We have also worked with Oregon’s
-                federal Congressional delegation in numerous of arenas,
-                including land-use, inter-governmental relations, tribal
-                matters, broadband policy, mergers and acquisitions, and
-                infrastructure planning. And we have worked with federal
-                agencies from the Department of Agriculture to the Federal
-                Communications Commission to resolve client’s issues.
+                federal Congressional delegation in numerous arenas, including
+                land-use, inter-governmental relations, tribal matters,
+                broadband policy, mergers and acquisitions, and infrastructure
+                planning. And we have worked with federal agencies from the
+                Department of Agriculture to the Federal Communications
+                Commission to resolve client’s issues.
               </p>
             </div>
             {/* <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
